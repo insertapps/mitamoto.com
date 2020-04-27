@@ -1,0 +1,2 @@
+# mitamoto.com
+mitamoto page
