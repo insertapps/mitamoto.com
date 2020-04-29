@@ -1,4 +1,15 @@
 /*
+Theme Name: Mitamoto
+Theme URI: https://insertapps.com/
+Author: Fauzan My
+Author URI: https://fzn.my.id/
+Description: Corporate landing page for car.
+Version: 0.5
+License URI: https://insertapps.com/licenses/
+*/
+
+
+/*
 
 1. Reserter
 2. Form 
@@ -24,7 +35,6 @@
 */
 
 
-
 *,
 *:after,
 *:before {
@@ -39,7 +49,7 @@ html {
 
 /* Change the default font of your web site */
 body {
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Helvetica, sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     line-height: 1.5;
     margin: 0;
     color: #111;
@@ -83,13 +93,13 @@ svg {
 }
 
 a {
-    color: #0074d9
+    color: #3bafa9
         /* Change the main color of your website */
 }
 
 a:hover,
 a:active {
-    color: #333
+    color: #2c7b79
         /* Change the second color of your website */
 }
 
@@ -1943,7 +1953,11 @@ Basscss core here
 }
 
 .teal {
-    color: #39CCCC
+    color: #3BAFA9
+}
+
+.teal-dark {
+    color: #2C7B79
 }
 
 .green {
@@ -2022,7 +2036,11 @@ Basscss core here
 }
 
 .bg-teal {
-    background-color: #39CCCC
+    background-color: #3BAFA9
+}
+
+.bg-teal-dark {
+    background-color: #2C7B79
 }
 
 .bg-green {
