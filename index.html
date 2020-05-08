@@ -187,7 +187,6 @@
 <script>
   var scrollpos = window.scrollY;
   var header = document.getElementById("headerian");
-  var powrMark = getElementsByClassName("powrMark");
 
   function add_class_on_scroll() {
     header.classList.add("bg-teal", "box-shadow", "transition");
@@ -195,14 +194,10 @@
   function remove_class_on_scroll() {
     header.classList.remove("bg-teal", "box-shadow", "transition");
   }
-  function hide_powrMark() {
-    header.classList.add("hide");
-  }
-
   window.addEventListener('scroll', function(){ 
   scrollpos = window.scrollY;
   if(scrollpos > 10){
-    add_class_on_scroll(); hide_powrMark();
+    add_class_on_scroll();
     }
       else {
       remove_class_on_scroll();
