@@ -206,8 +206,11 @@
 </script>
 <script>
 // Selecting element
-var elem = document.getElementByClass("blog");     
-elem.classList.add("hide");
+var elem = document.getElementByClass("blog");
+$(document).ready(function() {
+    elem.classList.add("hide");
+});   
+
 </script>
 </body>
 </html>
